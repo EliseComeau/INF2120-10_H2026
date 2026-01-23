@@ -1,2 +1,9 @@
+// Types de fichier à ignorer
+
 *.class
+*.iml
+
+
+// Dossier à ignorer
+
 .idea
