@@ -29,11 +29,13 @@ public class Client {
     @Override                               // cette métode est héritée de la classe Object qui est ...
     public boolean equals(Object obj) {     // ... la classe mère de toutes les autres classes Java
 
-        //return switch(obj) {
+        return switch(obj) {
 
-        //   case Client client -> noUsage == client.noUsage; // fonction lambda
-        //    default -> false;
+            case Client client -> noUsage == client.noUsage; // fonction lambda
+            default -> false;
 
-        //};
+        };
+
+        
     }
 }
